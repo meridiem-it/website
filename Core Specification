@@ -1,0 +1,26 @@
+# Core Web Site Architecture Secification 
+# Version: 0.0.1-05112017 
+# ID: c78be0c21611f78bb6b86126e14fbbf1
+
+Outline
+---------------
+1. Architectural Overview 
+2. Core Loading System
+3. JavaScript Services 
+4. Typography and Layout
+5. Assets 
+6. Profiling 
+7. Browser Detection Features 
+8. Debugging and Logging to Console 
+9. TODO 
+10. Reference Documentation 
+
+
+
+
+
+1. Architectural Overview 
+The Meridiem and IoT-craft websites are text-centered websites: the content is authored, edited and rendered in as close to plain 
+text as possible. Obviously, any browser can render plaintext. However, all content is uploaded as plain text, with little to no 
+markup. The markup is then generated via javascript, html/xml, css3 files that are stored in their respective folders. 
+
